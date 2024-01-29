@@ -25,3 +25,39 @@ industry. The analysis encompassed prominent e-commerce stocks such as:
 #### Amazon(AMZN), Alibaba Group (BABA), Walmart (WMT), eBay (EBAY), Shopify (SHOP), Target (TGT), Best Buy(BBY), The Home Depot (HD), Costco (COST), and Kroger (KR). ####
 In conclusion, this project showcased the integration of diverse technologies and provided a
 comprehensive understanding of the selected e-commerce stocks, their volatility, and trends.
+
+
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/e68b4318-efe0-4da0-a2b0-1e7cb8e8b7b8)
+
+
+### Screenshots:
+
+#### 1.	S3 bucket
+  ![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/37a41c95-b61d-4e74-bd6a-4df550bdf993)
+
+#### 2.	AWS Kinesis Monitor
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/d24c3154-07b8-4956-b28a-a7b3027eba6e)
+
+#### 3.	AWS Lambda Execution results
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/2011c107-ec79-4c65-b7dc-f20060263840)
+
+#### 4.	Athena results
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/49c73caf-0c64-450e-b261-6f0b9852ce47)
+
+## Visualizations:
+#### 1)	Graph the average volatility trend per company. Which company is the most volatile? From the above graph, we can see that Costco appears to be the most volatile
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/245fa4a1-0317-458e-a866-f4f19b1bac52)
+
+Based on the graph of the average volatility trend per company, it can be observed that Costco exhibits the highest volatility compared to other companies.
+
+
+#### 2)	Graph the daily highest volatility per company. Do the findings from this graph support your conclusion from the first graph?
+![image](https://github.com/PoulomiTarania/E-commerce-Analysis-using-AWS-components/assets/60750648/11fff4a4-308d-4f44-a9ac-b3f8c578589f)
+
+The graph displaying the daily highest volatility per company confirms the earlier conclusion.
+Costco stands out prominently with significantly higher bars representing its daily highest volatility compared to other companies.
+
+
+
+
+
