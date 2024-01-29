@@ -1,0 +1,12 @@
+select name as Company, 
+substring(ts,1,length(ts)-8) as Date, 
+ROUND(AVG(volatility),3) as Avg_Volatility, 
+ROUND(MAX(volatility),3) as Max_volatility,
+ROUND(MIN(volatility),3) as Min_volatility
+from "2023"
+where ts>'2023-04-02' and ts<'2023-04-15' and name!=''
+group by 1,2
+order by name ASC;
+
+Notes :
+I noticed few additional records(10) coming in for the month of May with the code that Prof provided, hence I filtered it in my SQL query by providing the required date range. 
